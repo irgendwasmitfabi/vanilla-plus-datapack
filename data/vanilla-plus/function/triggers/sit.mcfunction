@@ -1,0 +1,1 @@
+execute as @s at @s if entity @s[nbt={OnGround:1b}] run function vanilla-plus:sit/logic
