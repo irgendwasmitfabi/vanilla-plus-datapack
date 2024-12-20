@@ -9,6 +9,9 @@ function vanilla-plus:sit/loop
 # Horse stats trigger
 scoreboard objectives add horsestats trigger
 
+# Horse stats trigger
+scoreboard objectives add oredistribution trigger
+
 # Horse stats
 scoreboard objectives add horseSpeed dummy
 scoreboard objectives add horseSpeedDec dummy
