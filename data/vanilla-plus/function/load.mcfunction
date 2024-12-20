@@ -6,4 +6,12 @@ scoreboard objectives setdisplay list deaths
 scoreboard objectives add sit trigger
 function vanilla-plus:sit/loop
 
-tellraw @s {"text":"Datapack loaded","color":"#e637fa"}
+# Horse stats trigger
+scoreboard objectives add horsestats trigger
+
+# Horse stats
+scoreboard objectives add horseSpeed dummy
+scoreboard objectives add horseSpeedDec dummy
+
+scoreboard objectives add horseJump dummy
+scoreboard objectives add horseJumpDec dummy
